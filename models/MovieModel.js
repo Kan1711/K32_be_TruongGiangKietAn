@@ -6,7 +6,7 @@ const MovieSchema = mongoose.Schema({
     required: true,
   },
   year: {
-    type: Number,
+    type: String,
     required: true,
   },
   poster: {
